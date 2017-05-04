@@ -6,6 +6,7 @@
 body{
 	background: grey;
 	max-width: 960px;
+	margin: 0 auto;
 }
 div{
 	width: 100%;
@@ -24,6 +25,8 @@ header{
 	grid-column:1/5;
 	grid-row:1;
 	border:1px solid lightblue;
+	background-image: : url(imgs/bbq.jpeg);
+	background-size: 100% 100%;
 }
 aside{
 	grid-column:5/6;
