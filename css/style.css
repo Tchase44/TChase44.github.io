@@ -92,57 +92,33 @@ div.smGrid{
 .smGrid div{ border:1px solid green; }
 @media screen and (max-width: 500px){
 	#grid-container{
-		margin: 0 auto;
 		width: 100vw;
-		height: 100vh;
-		display: grid;
-		grid-gap: 1px;
-		grid-template-columns: 100%;
-		grid-template-areas: "top"
-							 "links"
-							 "projects"
-							 "stuff";
+		height: ;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		}
+	header,main,section,aside{
+		width:100%;
 	}
 	header{
-		grid-area: top;
-		width: 100%;
-		height: 300px;
-	}
-	.me{
-		height: 200px;
+		order: 1;
 	}
 	aside{
-		grid-area: links;
-		height: 80px;
+		order: 2;
+	}
+	main{
+		order: 3;
 	}
 	section{
-		grid-area: stuff; 
-		width: 100%}
-	main{
-		width: 100%;
-		padding: 4px;
-		grid-area: projects;
-		margin: -160px;
+		order: 4;
 	}
-	li{display: inline;}
 	#logoLinks{
-		list-style: none;
-		height: 100%;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
 	}
-	.smGrid{
-		width: 100%
-		margin: 0 auto;
-		padding: 1px;
-		display: grid;
-		grid-gap:1%;
-		grid-template-columns: 48% 48%;
-		grid-template-areas: "itemZ itemOne"
-						 "itemTwo itemThree" 
-						 "itemFour itemFive";
-	}
-
 }
+
