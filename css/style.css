@@ -16,7 +16,7 @@ body{
 	margin: 0 auto;
 	height: 100vh;
 	display: grid;
-	grid-gap: 5px;
+	grid-gap: 0px;
 	grid-template-columns: 20% 20% 20% 20% 20%;
 	grid-template-rows: 50% 50%;
 }
@@ -24,8 +24,6 @@ header{
 	grid-column:1/5;
 	grid-row:1;
 	border:1px solid lightblue;
-/*	background-image: url(../imgs/bbq.jpg);
-*/
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -95,7 +93,10 @@ div.smGrid{
 }
 .smGrid div{ border:1px solid green; }
 @media screen and (max-width: 500px){
-	body{margin-top: 35px;}
+	body{
+		margin-top: 28px;
+		background: grey;
+	}
 	#grid-container{
 		width: 100vw;
 		height: 300vh;
@@ -120,7 +121,7 @@ div.smGrid{
 	}
 	section{
 		order: 4;
-		height: 400px;
+		/*height: 400px;*/
 	}
 	#logoLinks{
 		padding: 7px 0;
@@ -130,12 +131,13 @@ div.smGrid{
 		align-items: center;
 	}
 	.smGrid{
-		padding: 0 auto;
+		margin:0 auto;
 		display: grid;
-		grid-template-columns: 45% 45%;
-		grid-template-areas: "cOne cTwo"
-							 "cThree cFour"
-							 "cFive cSix";
+		grid-gap: 0px;
+		grid-template-columns: 3% 45.5% 3% 45.5% 3%;
+		grid-template-areas: ". cOne . cTwo ."
+							 ". cThree . cFour ."
+							 ". cFive . cSix .";
 	}
 	#p0{ grid-area: cOne; }
 	#p1{ grid-area: cTwo; }
@@ -143,5 +145,8 @@ div.smGrid{
 	#p3{ grid-area: cFour; }
 	#p4{ grid-area: cFive; }
 	#p5{ grid-area: cSix; }
+	.portItems{
+		height: 255px;
+	}
 }
 
