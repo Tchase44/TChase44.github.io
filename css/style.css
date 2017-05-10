@@ -151,5 +151,17 @@ div.smGrid{
 		width: 100%;
 		height: 255px;
 	}
+	section>div{
+		width:100%;
+		text-align: center;
+		font-size: 120%;
+	}
+	.webTech{
+		/*display: none;*/
+		list-style: lower-roman;
+		text-align: left;
+		justify-content: left;
+	}
+
 }
 
