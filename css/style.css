@@ -92,7 +92,9 @@ div.smGrid{
 	height: 100%;
 }
 .smGrid div{ border:1px solid green; }
-@media screen and (max-width: 600px){
+/*-----Moblie Styles------*/
+/*@media screen and (max-width: 600px){*/
+@media only all and (orientation: portrait){
 	body{ 
 		background: grey;
 	}
@@ -120,7 +122,7 @@ div.smGrid{
 	}
 	section{
 		order: 4;
-		align-self: end; 
+		/*align-self: end; */
 		color: rgb(255,255,255);
 	}
 	#logoLinks{
