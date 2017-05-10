@@ -94,7 +94,7 @@ div.smGrid{
 .smGrid div{ border:1px solid green; }
 @media screen and (max-width: 500px){
 	body{
-		margin-top: 28px;
+		padding-top: 30px: 
 		background: grey;
 	}
 	#grid-container{
@@ -121,6 +121,7 @@ div.smGrid{
 	}
 	section{
 		order: 4;
+		align-self: end; 
 		/*height: 400px;*/
 	}
 	#logoLinks{
