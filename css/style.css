@@ -92,7 +92,7 @@ div.smGrid{
 	height: 100%;
 }
 .smGrid div{ border:1px solid green; }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	body{ 
 		background: grey;
 	}
