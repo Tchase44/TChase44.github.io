@@ -4,9 +4,13 @@
 	margin: 0;
  }
 body{
-	background: grey;
+	background-image: url(../imgs/tx.jpg);
+	background-size: 100% 100%;
 	max-width: 960px;
 	margin: 0 auto;
+}
+.bg{
+	background: rgba(1,1,1,0.5);
 }
 #grid-container{
 	margin: 0 auto;
@@ -91,6 +95,7 @@ div.smGrid{
 }
 .smGrid div{ border:1px solid green; }
 @media screen and (max-width: 500px){
+	body{margin-top: 35px;}
 	#grid-container{
 		width: 100vw;
 		height: 300vh;
