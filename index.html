@@ -3,55 +3,73 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-	<div id="grid-container">
-		<header class="bg">
+	<div id="grid-container" class="container-fluid">
+		<header class="jumbotron">
 			<img src="" alt=" it's Me...Tim Chase">
 			<div class="me">	
 				<h1>Hi I'm Tim!</h1>
-				<h3>I love the smell of a well designed web site in the morning.</h3>
+				<h3>I'm the web developer you've been looking for</h3>
 			</div>
 		</header>
-		<aside class="bg">
-			
-			<ul id="logoLinks">
-				<li class="smLogo" id="linkedin">
+		<nav id="logoLinks" class="row">
+			<!-- <div id="logoLinks" class="nav-pills"> -->
+				<div class="col" id="linkedin">
 					<a target="_blank" href="https://www.linkedin.com/in/timothychase44">
-						<img src="imgs/In-White-128px-TM.png" alt="linkedin Logo"></a></li>
-				<li class="smLogo" id="github">
+						<img class="imgSize" src="imgs/logo-placeholder.png" alt="linkedin Logo">
+					</a>
+				</div>
+				<div class="col" id="github">
 					<a target="_blank" href="https://github.com/Tchase44">
-						<img src="imgs/GitHub-Mark-Light-120px-plus.png" alt="GitHub Link"></a></li>
-				<li class="smLogo" id="codepen">
+						<img class="imgSize" src="imgs/logo-placeholder.png" alt="GitHub Link">
+					</a>
+				</div>
+				<div class="col" id="codepen">
 					<a target="_blank" href="https://codepen.io/TChase44/">
-						<img src="imgs/codepen-logo.png" alt="Logos Here"></a></li>
-				<li class="smLogo" id="email"><a href="mailto:tchase4544@gmail.com"><img src="imgs/email-5-128.png" alt="email"></a></li>
-			</ul>
-			
-		</aside>
-		<section class="bg">
+						<img class="imgSize" src="imgs/logo-placeholder.png" alt="Logos Here">
+					</a>
+				</div>
+				<div class="col" id="email">
+					<a href="mailto:tchase4544@gmail.com">
+						<img class="imgSize" src="imgs/logo-placeholder.png" alt="email">
+					</a>
+				</div>
+			<!-- </div>	 -->
+		</nav>
+		<main class="smGrid container-fluid">
+			<div class="smGrid2">
+				<div id="p0" class="col">
+					<a href=""><img class="portImg" src="http://placecage.com/200/200" alt="project1"></a>
+				</div>
+				<div id="p1" class="col">
+					<a href=""><img class="portImg" src="http://placecage.com/200/200" alt="project2"></a>
+				</div>
+				<div id="p2" class="col">
+					<a href=""><img class="portImg" src="http://placecage.com/200/200" alt="project3"></a>
+				</div>
+			</div>
+		</main>
+		<section class="">
 			<div>
 				<p>Stuff I enjoy <span id="cycle"> RallyCross </span></p>
 				<h4>Web Technologies I Like</h4>
 				<div class="webTech">
 					<ul>
-						<li></li>
+						<li><p>CSS + Responsive Design</p></li>
+						<li><p>JavaScript / jQuery / Angular</p></li>
+						<li><p>Ruby  Rails</p></li>
+						<li><p>CSS Grid</p></li>
+						<li><p>stone tools</p></li>
 					</ul>
 				</div>
 			</div>
 		</section>
-		<main class="bg">
-			<div class="smGrid">
-				<div id="p0" class="portItems">1</div>
-				<div id="p1" class="portItems">2</div>
-				<div id="p2" class="portItems">3</div>
-				<div id="p3" class="portItems">4</div>
-				<div id="p4" class="portItems">5</div>
-				<div id="p5" class="portItems">6</div>
-			</div>
-		</main>
 		<!-- <footer></footer> -->
+		<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
