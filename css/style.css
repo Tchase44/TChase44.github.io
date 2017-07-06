@@ -1,60 +1,64 @@
-/**{border: 1px solid black}*/
-#logoLinks{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.imgSize{
-	width: 80px;
-	height: 80px;
-}
-main.smGrid{
-	margin: 30px auto;
-/*	display: flex;
-	justify-content: space-around;
-	align-items: stretch;*/
-}
-.smGrid2{
-	/*width: 50%;*/
-	display: flex;
-	/*flex-direction: column;*/
-	justify-content: space-around;
-}
-.portImg{
-	width:100%;
-}
-.col:hover{
-	/*background: black;*/
-	opacity: .25;
-}
-section{
-	text-align: center;
-}
-section *{
-	list-style: none;
-}
-@media only screen and (max-width: 700px){
-	.smGrid2{
-		display: grid;
-		width: 99%;
-		margin: 0 auto;
-		grid-template-columns: 1fr 30% 1fr 30% 1fr 30% 1fr;
-		grid-template-rows: auto auto;
-	}
-	.smGrid2 div{
-		width: 100%;
-	}
 
-	#p0{
-		grid-column:2/3;
-		grid-row: 1/2;
-	}
-	#p1{
-		grid-column:4/5;
-		grid-row:2/3;
-	}
-	#p2{
-		grid-column:6/7;
-		grid-row: 1/2;
-	}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+	border: 1px solid black;
+}
+
+/*720px and bleow will be moblie styles*/
+#grid-container{
+	display: grid;
+	grid-gap: 2%;
+	grid-template-columns: 1fr repeat(2, minmax(auto, 50%)) 1fr;
+}
+nav,header,#projects,#contactInfo,footer{
+	grid-column: 1/5;
+}
+header{
+	height: 100vh;
+}
+header > h1{
+	text-align: center;
+	margin-top: 30%;
+	margin-bottom: 10%;
+}
+#bio1{
+	grid-column: 2/3;
+	/*height: 52vh;*/
+}
+#bio2{
+	grid-column: 3/4;
+	/*height: 52vh;*/
+}
+.boxes{
+	display: inline-block;
+	width: 30%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+nav > a{
+	width:25%;
+}
+main{
+	padding:5px;
+}
+
+
+
+@keyframes rotateIn{
+0% {
+    transform-origin: left bottom;
+    transform: rotate(-90deg);
+    opacity: 0;
+}
+100% {
+    transform-origin: left bottom;
+    transform: rotate(0);
+    opacity: 1;
+}
 }

@@ -3,73 +3,75 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="grid-container" class="container-fluid">
-		<header class="jumbotron">
-			<img src="" alt=" it's Me...Tim Chase">
-			<div class="me">	
-				<h1>Hi I'm Tim!</h1>
-				<h3>I'm the web developer you've been looking for</h3>
-			</div>
-		</header>
-		<nav id="logoLinks" class="nav nav-pills">
-			<!-- <div id="logoLinks" class="nav-pills"> -->
-				<div class="col" id="linkedin">
-					<a target="_blank" href="https://www.linkedin.com/in/timothychase44">
-						<img class="imgSize" src="imgs/In-2C-128px-TM.png" alt="linkedin Logo">
-					</a>
-				</div>
-				<div class="col" id="github">
-					<a target="_blank" href="https://github.com/Tchase44">
-						<img class="imgSize" src="imgs/GitHub-Mark-120px-plus.png" alt="GitHub Link">
-					</a>
-				</div>
-				<div class="col" id="codepen">
-					<a target="_blank" href="https://codepen.io/TChase44/">
-						<img class="imgSize" src="imgs/codepen-logo.png" alt="Logos Here">
-					</a>
-				</div>
-				<div class="col" id="email">
-					<a href="mailto:tchase4544@gmail.com">
-						<img class="imgSize" src="imgs/logo_gmail_128px.png" alt="email">
-					</a>
-				</div>
-			<!-- </div>	 -->
+	<div id="grid-container">
+		<nav>
+			<a href="#"><div>Home</div></a>
+			<a href="#"><div>Bio</div></a>
+			<a href="#"><div>Projects</div></a>
+			<a href="#"><div>Links</div></a>
 		</nav>
-		<main class="smGrid container-fluid">
-			<div class="smGrid2">
-				<div id="p0" class="col">
-					<a href=""><img class="portImg" src="http://placecage.com/200/200" alt="project1"></a>
-				</div>
-				<div id="p1" class="col">
-					<a href=""><img class="portImg" src="http://placecage.com/200/200" alt="project2"></a>
-				</div>
-				<div id="p2" class="col">
-					<a href=""><img class="portImg" src="http://placecage.com/200/200" alt="project3"></a>
-				</div>
-			</div>
+		<header>
+			<h1>hi im a grid header</h1>
+			<p>I work with a tireless effort to get the job done, and using all the tools and resources available I will solve any problem. I approach life with an "all in" mentality, developing passion in my efforts and focusing on bringing others up with the knowledge I gain</p>
+		</header>
+		<main id="bio1">
+			<h3>About Me</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</main>
-		<section class="">
-			<div>
-				<p>Stuff I enjoy <span id="cycle"> RallyCross </span></p>
-				<h4>Web Technologies I Like</h4>
-				<div class="webTech">
-					<ul>
-						<li><p>CSS + Responsive Design</p></li>
-						<li><p>JavaScript / jQuery / Angular</p></li>
-						<li><p>Ruby  Rails</p></li>
-						<li><p>CSS Grid</p></li>
-						<li><p>stone tools</p></li>
-					</ul>
-				</div>
+		<main id="bio2">
+			<h3>Stuff I Like</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</main>
+		<div id="projects">
+			<h3>This is the project area</h3>
+			<div class="boxes">
+				<img alt="project 4 maybe">
+				<p>breif description, Tech Used, Buttons?</p>
 			</div>
-		</section>
-		<!-- <footer></footer> -->
-		<script type="text/javascript" src="script.js"></script>
+			<div class="boxes">
+				<img alt="Iron Sports">
+				<p>breif description, Tech Used, Buttons?</p>
+			</div>
+			<div class="boxes">
+				<img alt="Simon or newsapp?">
+				<p>breif description, Tech Used, Buttons?</p>
+			</div>
+			<div>
+				<p>See more projects on <a href="https://github.com/tchase44">Github</a>. You can also see some experiments on <a href="https://codepen.io/tchase44">Codepen</a></p>
+				
+			</div>
+		</div>
+		<div id="contactInfo">
+			<h3>Contact me!</h3>
+			<!--connect on linkedin-->
+			<a href="https://LinkedIn.com/in/timothychase44"><img src="" alt="LinkedIn"></a>
+			<!-- email me -->
+			<a href="mailto:tchase4544@gmail.com"><img src="" alt="email"></a>
+			<!-- view my resume -->
+			<a href="#"><img src="" alt="My Resume"></a>
+			<p>or just checkout some of my work</p>
+			<a href="https://github.com/tchase44"><img src="" alt="Github"></a>
+				<a href="https://codepen.io/tchase44"><img src="" alt="Codepen"></a>
+		</div>
+		<footer>
+			<h3>I am a footer</h3>
+		</footer>
+	</div>
 </body>
 </html>
