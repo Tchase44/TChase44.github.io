@@ -1,64 +1,13 @@
-
-*{
-	box-sizing: border-box;
-	padding: 0;
-	margin:0;
-	border: 1px solid black;
-}
-
-/*720px and bleow will be moblie styles*/
-#grid-container{
-	display: grid;
-	grid-gap: 2%;
-	grid-template-columns: 1fr repeat(2, minmax(auto, 50%)) 1fr;
-}
-nav,header,#projects,#contactInfo,footer{
-	grid-column: 1/5;
-}
 header{
-	height: 100vh;
+	height: 80vh;
+	/*background: lightgrey;*/
 }
-header > h1{
-	text-align: center;
-	margin-top: 30%;
-	margin-bottom: 10%;
+header>h1{
+	margin-top: 30vh;
 }
-#bio1{
-	grid-column: 2/3;
-	/*height: 52vh;*/
+nav>a>div:hover{
+	background: #44b73a;
 }
-#bio2{
-	grid-column: 3/4;
-	/*height: 52vh;*/
-}
-.boxes{
-	display: inline-block;
-	width: 30%;
-}
-
-nav {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-nav > a{
-	width:25%;
-}
-main{
-	padding:5px;
-}
-
-
-
-@keyframes rotateIn{
-0% {
-    transform-origin: left bottom;
-    transform: rotate(-90deg);
-    opacity: 0;
-}
-100% {
-    transform-origin: left bottom;
-    transform: rotate(0);
-    opacity: 1;
-}
+.customHover:hover{
+	opacity: 0.5;
 }
