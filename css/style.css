@@ -1,13 +1,25 @@
 header{
-	height: 80vh;
+	height: 70vh;
 	/*background: lightgrey;*/
 }
 header>h1{
 	margin-top: 30vh;
+}
+nav{
+	position: fixed;
+	top: 0;
+	z-index: 2;
 }
 nav>a>div:hover{
 	background: #44b73a;
 }
 .customHover:hover{
 	opacity: 0.5;
+}
+#Projects{
+	margin-bottom: 62px;
+}
+#Top{
+    position: relative;
+    top: -100px;
 }
