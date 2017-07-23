@@ -2557,7 +2557,7 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: #44b73a;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -4885,7 +4885,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color: #44b73a;
   margin-right: 24px;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
@@ -4893,7 +4893,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
+  color: #44b73a;
 }
 
 .card .card-reveal {
@@ -5129,7 +5129,7 @@ small {
   visibility: hidden;
 }
 
-.btn, .btn-large,
+.btn, .btn-lar
 .btn-flat {
   border: none;
   border-radius: 2px;
@@ -5179,7 +5179,7 @@ small {
 .btn-large[disabled]:hover,
 .btn-flat[disabled]:hover {
   background-color: #DFDFDF !important;
-  color: #9F9F9F !important;
+  color: #44b73a !important;
 }
 
 .btn, .btn-large,
@@ -5399,7 +5399,7 @@ button.btn-floating {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
-  color: #343434;
+  color: #44b73a;
   cursor: pointer;
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
@@ -7410,7 +7410,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a.btn-flat {
-  color: #343434;
+  color: #44b73a;
 }
 
 .side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {

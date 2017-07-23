@@ -16,12 +16,19 @@ nav>a>div:hover{
 .customHover:hover{
 	opacity: 0.5;
 }
+.btn-flat,a.btn-flat{
+	text-decoration: none;
+	color: #44b73a;
+}
 #Projects{
 	margin-bottom: 62px;
 }
 #Top{
     position: relative;
     top: -100px;
+}
+#Bio{
+	margin-bottom: 50px;
 }
 /*#p1{
 	max-height: 213px;
@@ -35,3 +42,14 @@ nav>a>div:hover{
 #p3:hover{
 	content:url("../imgs/SimonHex.png")
 }*/
+.links img{
+	width: 10%;
+}
+#codepen > img{
+	background: black;
+	border-radius: 360px;
+}
+
+
+
+
