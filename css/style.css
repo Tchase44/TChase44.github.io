@@ -41,18 +41,27 @@ nav>a>div:hover{
 .links img{
 	width: 10%;
 }
+ul#list > li{
+	list-style-type: square;
+}
 #codepen > img{
 	background: black;
 	border-radius: 360px;
 }
 
 #copy{
-	font-size: 150%;
+	font-size: 110%;
 }
-footer > span{
+footer{
 	color:#efefef;
-	line-height: 3;
+	line-height: 4;
+	padding: 0 1%;
 }
-
+.materialize{
+	color: #efefef;
+}
+.materialize:hover{
+	color: #44b73a;
+}
 
 
