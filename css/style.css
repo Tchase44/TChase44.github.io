@@ -26,6 +26,14 @@ nav>a>div:hover{
 #Bio{
 	margin-bottom: 50px;
 }
+.tinyLogos{
+	width: 32%;
+}
+.vertDivider{
+	width: 1px;
+	height: 100%;
+	background: black;
+}
 /*#p1{
 	max-height: 213px;
 }*/
