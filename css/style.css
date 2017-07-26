@@ -32,12 +32,12 @@ nav>a>div:hover{
 #p1:hover{
 	content:url("../imgs/SimonHex.png")
 }
-/*#p2:hover{
-	content:url("../imgs/SimonHex.png")
+#p2:hover{
+	content:url("../imgs/SuperImageTagger2.png")
 }
 #p3:hover{
-	content:url("../imgs/SimonHex.png")
-}*/
+	content:url("../imgs/iron-sports2.png")
+}
 .links img{
 	width: 10%;
 }
@@ -47,6 +47,9 @@ ul#list > li{
 #codepen > img{
 	background: black;
 	border-radius: 360px;
+}
+img.minLogos{
+	width: 100%;
 }
 
 #copy{
