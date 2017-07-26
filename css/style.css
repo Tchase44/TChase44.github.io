@@ -62,7 +62,9 @@ ul#list > li{
 img.minLogos{
 	width: 100%;
 }
-
+#res{
+	text-align: center;
+}
 #copy{
 	font-size: 110%;
 }
