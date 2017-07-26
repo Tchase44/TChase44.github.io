@@ -24,7 +24,10 @@ nav>a>div:hover{
     top: -100px;
 }
 #Bio{
-	margin-bottom: 50px;
+	margin-bottom: 75px;
+}
+#Contact{
+	margin-bottom: 30px;
 }
 .tinyLogos{
 	width: 32%;
