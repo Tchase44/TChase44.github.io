@@ -4,6 +4,29 @@ header{
 }
 header>h1{
 	margin-top: 30vh;
+
+}
+#hi{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 30vh auto 0 auto;
+	animation: type 3.5s steps(20, end);
+}
+.desc{
+	/*opacity: 0;*/
+	animation: fadeIn 9s ease;
+}
+.myDiv{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.me{
+	width: 100%;
+	height: auto;
 }
 nav{
 	position: fixed;
@@ -18,7 +41,6 @@ nav>a>div:hover{
 	background-color: #424242;
 	min-width: 10%;
 	border-radius: 360px;
-	/*overflow: hidden;*/
 }
 h3{
 	border-left: 10px solid  #44b73a;
@@ -36,17 +58,22 @@ h3{
 #Bio{
 	margin-bottom: 75px;
 }
+.work{
+	box-shadow: 0px 0px 2px #808080;
+}
+.play{
+	box-shadow: 0px 1px 2px #808080;
+}
+.play,.work{
+	/*text-decoration: underline;*/
+}
 #Contact{
 	margin-bottom: 30px;
 }
 .tinyLogos{
 	width: 32%;
 }
-.vertDivider{
-	width: 1px;
-	height: 100%;
-	background: black;
-}
+
 /*#p1{
 	max-height: 213px;
 }*/
@@ -89,5 +116,38 @@ footer{
 .materialize:hover{
 	color: #44b73a;
 }
+
+@media only screen and (min-width: 600px) {
+	.play{
+		box-shadow: -2px 0px 0px #808080;
+	}
+	.work{
+		box-shadow: 0px 0px 0px transparent;
+	}
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+		color: transparent;
+	}
+	50%{
+		opacity: 0.5;
+		color: #44b73a;
+	}
+	100%{
+		opacity: 0.9;
+		color: black;
+	}
+}
+@keyframes type {
+	0%{width: 0;
+		border-right:2px solid #44b73a;
+	}
+	100%{width: 100%;
+		border-right:0px solid transparent;
+	}
+}
+
 
 
