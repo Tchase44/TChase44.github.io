@@ -86,11 +86,36 @@ h3{
 #p3:hover{
 	content:url("../imgs/iron-sports2.png")
 }
+#p4:hover{
+	content: url("../imgs/ichallenge2.png");
+}
 .links img{
 	width: 10%;
 }
+
+.gridGrid{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(10,1fr);
+	/*grid-template-rows: auto;*/
+}
+.linked{
+	grid-column: 1/2;
+}
+.email{
+	grid-column: 3/4;
+}
+.resume{
+	grid-column: 5/6;
+}
+.github{
+	grid-column: 7/8;
+}
+.codepen{
+	grid-column: 9/10;
+}
 #list{
-	font-size: 120%;
+	font-size: 140%;
 }
 #codepen > img{
 	background: black;
@@ -123,6 +148,12 @@ footer{
 	}
 	.work{
 		box-shadow: 0px 0px 0px transparent;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.gridGrid{
+
 	}
 }
 
