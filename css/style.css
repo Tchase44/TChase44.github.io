@@ -13,6 +13,16 @@ nav{
 nav>a>div:hover{
 	background: #44b73a;
 }
+.miniMe{
+	background-image: url("../imgs/170531-GA-Headshots-0011.jpg");
+	background-color: #424242;
+	min-width: 10%;
+	border-radius: 360px;
+	/*overflow: hidden;*/
+}
+h3{
+	border-left: 10px solid  #44b73a;
+}
 .customHover:hover{
 	opacity: 0.5;
 }
@@ -52,8 +62,8 @@ nav>a>div:hover{
 .links img{
 	width: 10%;
 }
-ul#list > li{
-	list-style-type: square;
+#list{
+	font-size: 120%;
 }
 #codepen > img{
 	background: black;
