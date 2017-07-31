@@ -4,7 +4,9 @@ header{
 }
 header>h1{
 	margin-top: 30vh;
-
+}
+section{
+	margin-bottom: 30px;
 }
 #hi{
 	width: 100%;
