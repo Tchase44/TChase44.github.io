@@ -1,10 +1,11 @@
 header{
 	height: 70vh;
-	/*background: lightgrey;*/
 }
 header>h1{
 	margin-top: 30vh;
-
+}
+section{
+	margin-bottom: 30px;
 }
 #hi{
 	width: 100%;
@@ -64,19 +65,18 @@ h3{
 .play{
 	box-shadow: 0px 1px 2px #808080;
 }
-.play,.work{
-	/*text-decoration: underline;*/
+.statement{
+	margin-bottom: 7%;
 }
 #Contact{
-	margin-bottom: 30px;
+	margin: 30px 0;
 }
 .tinyLogos{
 	width: 32%;
 }
-
-/*#p1{
-	max-height: 213px;
-}*/
+.spaceout{
+	margin: 8% 0px;
+}
 #p1:hover{
 	content:url("../imgs/SimonHex.png")
 }
